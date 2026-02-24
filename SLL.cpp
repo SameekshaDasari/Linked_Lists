@@ -129,6 +129,8 @@ int main(){
     int choice, position, target;
     char cont = 'y';
     Node* head = nullptr;
+    cout<<"Varadha's SLL!!";
+    cout<<"Good";
     while(cont=='y'){
         cout << "MENU\n1. INSERTION\n2. DELETION\n3. SEARCH\n4. DISPLAY\n5. SUM\n6. SWAP\nEnter your choice: ";
         cin >> choice;
