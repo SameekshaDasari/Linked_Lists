@@ -17,7 +17,7 @@ class Metadata{ public:
 
 void insertion(Metadata* &head, int pos){
     int data;
-    cout << "Enter Value: "; cin >> data;
+    cout << "Enter: "; cin >> data;
     Node* new_node = new Node(data);
     if (head->count == 0 && pos==0){
         head->front = new_node;
@@ -110,7 +110,7 @@ int main(){
     int choice, position, target; char cont = 'y';
     Metadata* info = new Metadata();
     while (cont=='y'){
-        cout << "MENU\n1. INSERTION\n2. DELETION\n3. SEARCH\n4. DISPLAY_FROM_FRONT\n5. DISPLAY_FROM_REAR\nEnter your choice: ";
+        cout << "MENU\n1. INSERTION\n2. DELETION\n3. SEARCH\n4. DISPLAY_FROM_FRONT\n5. DISPLAY_FROM_REAR\nEnter: ";
         cin >> choice;
         switch(choice){
             case 1:
